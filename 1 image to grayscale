@@ -1,5 +1,5 @@
 import cv2 
-image = cv2.imread("sample.jpg")  # Replace 'sample.jpg' with your image path 
+image = cv2.imread("sample.jpg") 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) 
 cv2.imshow("Original Image", image) 
 cv2.imshow("Grayscale Image", gray_image) 
