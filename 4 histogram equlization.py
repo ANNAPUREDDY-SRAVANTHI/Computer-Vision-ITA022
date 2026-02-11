@@ -6,4 +6,5 @@ equalized_image = cv2.equalizeHist(gray_image)
 cv2.imshow("Original Grayscale Image", gray_image) 
 cv2.imshow("Histogram Equalized Image", equalized_image) 
 cv2.waitKey(0) 
+
 cv2.destroyAllWindows()
