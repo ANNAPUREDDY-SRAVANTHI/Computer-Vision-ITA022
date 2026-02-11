@@ -28,4 +28,4 @@ def analyze_histogram(image_path):
     plt.show()
 
 # Call function
-analyze_histogram("sample.jpg")   # Make sure sample.jpg is in same folder
+analyze_histogram("sample.jpg")   
